@@ -1,0 +1,19 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 22 nov. 2021, 9:38:10
+    Author     : Carlos Torres Liñán
+*/
+
+/*Damos color de fondo a aquellas lineas vacias de una tabla*/
+.table-row-cell:empty{
+    -fx-background-color: lightyellow;
+}
+
+/*Eliminamos los bordes de las celdas en las filas que están vacia.*/
+.table-row-cell:empty .table-cell{
+    -fx-border-width: 0px;
+}

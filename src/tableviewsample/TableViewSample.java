@@ -75,6 +75,7 @@ public class TableViewSample extends Application {
         stage.setTitle("Table View Sample");
         stage.setWidth(450);
         stage.setHeight(550);
+        scene.getStylesheets().add("tableviewsample/ControlStyle.css");
  
         final Label label = new Label("Address Book");
         label.setFont(new Font("Arial", 20));
